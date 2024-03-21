@@ -1,5 +1,6 @@
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
+from sklearn.metrics import r2_score
 
 def train_model(model, criterion, optimizer, train_loader, epochs):
     train_losses = []

@@ -1,5 +1,6 @@
 import torch
 from sklearn.model_selection import train_test_split
+import numpy as np
 
 class DataProcessor:
     def __init__(self, data):
@@ -11,7 +12,11 @@ class DataProcessor:
         return features, target
 
     def standardize_features(self, features):
-        standardized_features = (features - features.mean()) / features.std()
+        # Exclude non-numeric columns
+        numeric_features = features.select_dtypes(include=[np.number])
+        
+        # Standardize numeric features
+        standardized_features = (numeric_features - numeric_features.mean()) / numeric_features.std()
         return standardized_features
 
 class DataSplitter:
