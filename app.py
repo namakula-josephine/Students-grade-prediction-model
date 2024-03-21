@@ -3,10 +3,10 @@ import mlflow.pytorch
 import torch
 
 app = Flask(__name__)
-
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 # Load the trained model
-model_uri = "runs:/handsome-doe-904/models"  # Replace <RUN_ID> with the actual run ID
-loaded_model = mlflow.pytorch.load_model(model_uri)
+model_uri = 'runs:/867e92ff96814a8382bc29563dd0dba4/models'
+loaded_model = mlflow.pyfunc.load_model(model_uri)
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -27,3 +27,5 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
