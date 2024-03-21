@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score
 from torch.utils.data import DataLoader, TensorDataset
 from models.model import GNN
 from src.preprocessing import DataProcessor, DataSplitter, TensorConverter
-from src.training import train_model
+from src.training import train_model, save_model
 from src.evaluating import evaluate_model
 import pandas as pd
 
@@ -42,6 +42,9 @@ def main():
     # Training the model
     epochs = 500
     train_model(model, criterion, optimizer, train_loader, epochs)
+    
+    #Save the model
+    save_model(model, 'models/trained_models/grade_predictor.h5')
 
     # Evaluate the model
     evaluate_model(model, train_loader)  # Evaluation on training data

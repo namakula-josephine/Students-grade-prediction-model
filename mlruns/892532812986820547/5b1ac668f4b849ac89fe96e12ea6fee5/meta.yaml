@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/5b1ac668f4b849ac89fe96e12ea6fee5/artifacts
+end_time: 1711050223759
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: 5b1ac668f4b849ac89fe96e12ea6fee5
+run_name: rumbling-crane-875
+run_uuid: 5b1ac668f4b849ac89fe96e12ea6fee5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711050195403
+status: 3
+tags: []
+user_id: jnama

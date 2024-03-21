@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jnama/machine/Students-grade-prediction-model/mlruns/0/f282eb0eddda4a39b2ad75e1d158d40f/artifacts
+end_time: 1711051783095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f282eb0eddda4a39b2ad75e1d158d40f
+run_name: blushing-wolf-267
+run_uuid: f282eb0eddda4a39b2ad75e1d158d40f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711051749753
+status: 3
+tags: []
+user_id: jnama

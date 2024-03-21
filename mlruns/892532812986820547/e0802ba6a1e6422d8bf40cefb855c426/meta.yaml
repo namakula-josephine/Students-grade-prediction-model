@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/e0802ba6a1e6422d8bf40cefb855c426/artifacts
+end_time: 1711051653141
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: e0802ba6a1e6422d8bf40cefb855c426
+run_name: carefree-toad-117
+run_uuid: e0802ba6a1e6422d8bf40cefb855c426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711051653039
+status: 3
+tags: []
+user_id: jnama

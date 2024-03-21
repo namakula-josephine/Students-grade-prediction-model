@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/439d1fcf38e74cb58d7d1cf605dc89d5/artifacts
+end_time: 1711048364470
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: 439d1fcf38e74cb58d7d1cf605dc89d5
+run_name: traveling-eel-503
+run_uuid: 439d1fcf38e74cb58d7d1cf605dc89d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711048328660
+status: 3
+tags: []
+user_id: jnama

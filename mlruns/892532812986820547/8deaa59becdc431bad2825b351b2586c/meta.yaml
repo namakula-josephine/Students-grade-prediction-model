@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/8deaa59becdc431bad2825b351b2586c/artifacts
+end_time: 1711047993602
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: 8deaa59becdc431bad2825b351b2586c
+run_name: wistful-shark-505
+run_uuid: 8deaa59becdc431bad2825b351b2586c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711047993415
+status: 3
+tags: []
+user_id: jnama

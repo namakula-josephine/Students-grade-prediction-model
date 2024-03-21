@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/8a0a355db0f64196b443ad724c08973e/artifacts
+end_time: 1711047993337
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: 8a0a355db0f64196b443ad724c08973e
+run_name: useful-ray-829
+run_uuid: 8a0a355db0f64196b443ad724c08973e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711047944337
+status: 3
+tags: []
+user_id: jnama

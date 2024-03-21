@@ -1,3 +1,4 @@
+import torch
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import r2_score
@@ -5,7 +6,7 @@ import mlflow
 
 def train_model(model, criterion, optimizer, train_loader, epochs):
     mlflow.set_tracking_uri("http://127.0.0.1:5000")  # Set your mlflow URI here
-    mlflow.set_experiment("Students grade prediction")  # Set your experiment name
+    # mlflow.set_experiment("Students grade prediction")  # Set your experiment name
     
     with mlflow.start_run():
         train_losses = []
@@ -42,4 +43,7 @@ def train_model(model, criterion, optimizer, train_loader, epochs):
             mlflow.log_metric("train_r2_score", train_accuracies[-1], step=epoch)
 
         # Save the trained model with mlflow
-        mlflow.pytorch.log_model(model, "models")
+        mlflow.pytorch.log_model(model, 'models/trained_models/grade_predictor.h5')
+        
+def save_model(model, path):
+    torch.save(model.state_dict(), path)

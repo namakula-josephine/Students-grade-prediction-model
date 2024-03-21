@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jnama/machine/Students-grade-prediction-model/mlruns/0/a9647721baa54ed98e40ec8b6af0f979/artifacts
+end_time: 1711051783400
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9647721baa54ed98e40ec8b6af0f979
+run_name: skittish-perch-507
+run_uuid: a9647721baa54ed98e40ec8b6af0f979
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711051783142
+status: 3
+tags: []
+user_id: jnama

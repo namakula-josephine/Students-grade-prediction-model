@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/de242f6229a04059b03703c2ed117c30/artifacts
+end_time: 1711048364638
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: de242f6229a04059b03703c2ed117c30
+run_name: grandiose-gnat-323
+run_uuid: de242f6229a04059b03703c2ed117c30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711048364508
+status: 3
+tags: []
+user_id: jnama

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/d8959eb3993240e9b1e718316979792f/artifacts
+end_time: 1711051653003
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: d8959eb3993240e9b1e718316979792f
+run_name: legendary-eel-929
+run_uuid: d8959eb3993240e9b1e718316979792f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711051620639
+status: 3
+tags: []
+user_id: jnama

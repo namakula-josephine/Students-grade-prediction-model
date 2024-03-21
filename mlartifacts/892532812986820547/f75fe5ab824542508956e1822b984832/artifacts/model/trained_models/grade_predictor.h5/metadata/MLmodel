@@ -1,0 +1,21 @@
+artifact_path: model/trained_models/grade_predictor.h5
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.0
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.2.1+cpu
+mlflow_version: 2.11.2
+model_size_bytes: 9436
+model_uuid: 905bd41db75548bb8f4718cbca4cacd4
+run_id: f75fe5ab824542508956e1822b984832
+utc_time_created: '2024-03-21 19:38:28.435562'
