@@ -1,4 +1,5 @@
 from sklearn.metrics import r2_score
+import mlflow
 
 def evaluate_model(model, data_loader):
     model.eval()
@@ -12,3 +13,6 @@ def evaluate_model(model, data_loader):
 
     r2 = r2_score(y_true, y_pred)
     print(f'Evaluation R-squared: {r2}')
+    
+    # Log R-squared metric with mlflow
+    mlflow.log_metric("r2_score", r2)

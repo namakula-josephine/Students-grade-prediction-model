@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/892532812986820547/8b2af00c707e40f1ba284538afa5bbef/artifacts
+end_time: 1711028747677
+entry_point_name: ''
+experiment_id: '892532812986820547'
+lifecycle_stage: active
+run_id: 8b2af00c707e40f1ba284538afa5bbef
+run_name: respected-bird-800
+run_uuid: 8b2af00c707e40f1ba284538afa5bbef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711028716135
+status: 3
+tags: []
+user_id: jnama

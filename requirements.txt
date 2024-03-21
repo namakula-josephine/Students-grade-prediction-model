@@ -3,3 +3,5 @@ torch-geometric
 scikit-learn
 pandas
 imbalanced-learn
+mlflow
+flask

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jnama/machine/Students-grade-prediction-model/your_mlflow_uri/871227263369960388/e5424547cc964a939d21c91d2769d7ae/artifacts
+end_time: 1711026086146
+entry_point_name: ''
+experiment_id: '871227263369960388'
+lifecycle_stage: active
+run_id: e5424547cc964a939d21c91d2769d7ae
+run_name: aged-jay-376
+run_uuid: e5424547cc964a939d21c91d2769d7ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711026062267
+status: 3
+tags: []
+user_id: jnama
