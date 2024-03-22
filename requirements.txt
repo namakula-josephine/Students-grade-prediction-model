@@ -5,3 +5,4 @@ pandas
 imbalanced-learn
 mlflow
 flask
+gunicorn
